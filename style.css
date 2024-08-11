@@ -18,9 +18,9 @@
   --secondary-hover-color: #444;
 }
 @keyframes rgbStripe {
-    0% { box-shadow: 0 6px 6px rgba(255, 0, 0, 0.504); }
-    33% { box-shadow: 0 6px 6px rgba(0, 255, 0, 0.504); }
-    66% { box-shadow: 0 6px 6px rgba(0, 0, 255, 0.504); }
+    0% { box-shadow: 0 6px 6px rgba(35, 0, 0, 0.504); }
+    33% { box-shadow: 0 6px 6px rgba(0, 44, 0, 0.504); }
+    66% { box-shadow: 0 6px 6px rgba(1, 1, 49, 0.504); }
     100% { box-shadow: 0 6px 6px rgba(255, 0, 0, 0.504); }
 }
 
@@ -30,10 +30,10 @@
     border-radius: 20px; /* Rounded corners */
     padding: 20px; /* Padding inside the container */
     border: 1.5px solid rgba(255, 255, 255, 0.2); /* Light border */
-    box-shadow: 0 3px 4px rgb(252, 64, 64); /* Subtle shadow */
+    box-shadow: 0 2px 2px rgb(235, 165, 165); /* Subtle shadow */
     color: #fff; /* Text color */
     margin: 20px auto; /* Centering the container */
-    animation: rgbStripe 3s linear infinite; /* Applying the RGB stripe animation */
+    animation: rgbStripe 5s linear infinite; /* Applying the RGB stripe animation */
 }
 
 
